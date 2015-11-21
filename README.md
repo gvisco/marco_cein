@@ -8,7 +8,7 @@ Sample usage:
 mc = MarkovChain(2)
 
 # train it
-for sentence in input:
+for sentence in get_your_input_from_somewhere():
     mc.learn(sentence)
 
 # print the model (may be huge)
